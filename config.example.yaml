@@ -1,0 +1,12 @@
+# 复制本文件为 config.yaml 并填入配置。
+# config.yaml 已被 .gitignore 忽略，不会上传到仓库。
+
+# 报告叙述用的 LLM（OpenAI 兼容接口）
+llm:
+  provider: deepseek
+  base_url: https://api.deepseek.com
+  model: deepseek-chat
+  # 密钥：填在这里，或设置环境变量 DEEPSEEK_API_KEY（代码会优先读环境变量，推荐后者）
+  api_key: ""
+  temperature: 0.6
+  max_tokens: 4096
