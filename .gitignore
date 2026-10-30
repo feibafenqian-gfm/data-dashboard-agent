@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+
+# 敏感配置（含 API 密钥，切勿提交）
+config.yaml
+.env
+
+# 生成产物
+output/
+datasets/*/output/
+*.pdf
+
+# 大数据文件与第三方资源（用 download_data.py 获取）
+datasets/*/data/
+src/assets/plotly.min.js
+
+# 系统
+.DS_Store
+Thumbs.db
