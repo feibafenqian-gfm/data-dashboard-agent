@@ -1,0 +1,16 @@
+name: olist
+display_name: Olist 巴西电商
+title: Olist 巴西电商销售分析报告
+currency: "R$"
+
+# 下钻维度（fact 中的列 -> 中文标签）
+dimensions:
+  - {key: category, column: category, label: 类目}
+  - {key: state, column: state, label: 州}
+  - {key: payment, column: payment_type, label: 支付方式}
+
+# 下钻优先级（报告按此顺序下钻）
+drilldown: [category, state, payment]
+
+# 报告/看板的指标卡
+kpi_cards: [gmv, orders, aov, repeat_rate]
