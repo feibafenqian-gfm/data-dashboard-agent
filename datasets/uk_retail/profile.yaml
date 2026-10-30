@@ -1,0 +1,11 @@
+name: uk_retail
+display_name: UK 线上零售
+title: UK 线上零售数据分析报告
+currency: "£"
+
+dimensions:
+  - {key: country, column: country, label: 国家}
+
+drilldown: [country]
+
+kpi_cards: [gmv, orders, aov, repeat_rate]
